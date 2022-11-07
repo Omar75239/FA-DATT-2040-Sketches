@@ -1,4 +1,3 @@
-//slitscan draw
 
 PImage img; 
 PImage imget; 
@@ -25,7 +24,6 @@ void draw() {
   float by = map(mouseY, 0, height, 0, step);
   
   noFill();
- // rectMode(CENT);
  stroke(255);
   rect(bx, int(by)*gridsize, step, step);
 
