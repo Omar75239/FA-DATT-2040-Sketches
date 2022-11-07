@@ -19,7 +19,6 @@ void draw() {
 
   image(img, 0, 0, img.width, img.height);
 
- // float bx = map(mouseX, 0, width, 0, width/2);
   float bx = constrain(mouseX, 0, width/2-(step+4));
   float by = map(mouseY, 0, height, 0, step);
   
